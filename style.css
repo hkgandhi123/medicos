@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+.header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 2px 10px 0px #ccc;
+}
+.headerLeft{
+	width: 48%;
+	margin-left: 2%;
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.menu>ul{
+	display: flex;
+	margin-left: 2%;
+	gap: 40px;
+}
+.menu>ul>li{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+	display: flex;
+}
+.headerRight{
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+	margin-right:2%;
+	align-items: center;
+
+}
+.headerRight form{
+	width: 70%;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+
+}
+.headerRight form button{
+	width: 10%;
+	background: transparent;
+	border: none;
+}
+.headerRight form input{
+	width:90%;
+	height:10px;
+	margin-right: 2px;
+	border: none;
+
+}
+.profile ul{
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	margin-left: 2%;
+}
+.medicine{
+	width: 100%;
+	padding: 80px; 0px;
+	display: flex;
+}
+.med{
+	width: 100%;
+	display: flex;
+	gap: 2%;
+}
+.meditems img{
+	width: 100%;
+}
+.banner{
+	width: 100%;
+	margin-top: 20px;
+
+}
+.banner img{
+	width: 100%;
+	height: 400px;
+}
+.brandsection{
+	width: 100%;
+	padding: 80px; 0px;
+
+}
+.brandsection h2{
+	padding: 10px;
+	font-size: 30px;
+}
+.brandrow{
+	width:100%;
+	display: flex;
+	gap: 1%;
+}
+.branditems{
+	width: 17%;
+	box-shadow: 0px 0px 10px 2px #ccc;
+
+}
+.branditems img{
+	width: 100%;
+
+.call{
+	width: 100%;
+	margin-top:1px;
+}
+.call img{
+	width: 100%;
+	height:60px;
+	display: flex;
+}
+.slide{
+	width: 30%;
+	height: 100vh;
+	background-color: #ccc;
+	border: 1px solid; #black
+}
+.h1{
+	text-align: center;
+	padding: 30px 0px;
+}
+.faqmid{
+	max-width: 100px;
+	margin: auto;
+}
+.faqitems{
+	border: 1px solid #ccc;
+}
