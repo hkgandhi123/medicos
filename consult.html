@@ -1,0 +1,137 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="styleconsult.css">
+		<title></title>
+	</head>
+	<body>
+	   
+		<div class="back">
+			<div class="backleft">
+				<a href="hom.html"><i class="fa-solid fa-arrow-left"></i></a>
+			</div>
+			<div class="backright">
+
+			 <button id="login"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+		    </div>
+
+
+		 <div class="loginmodel">
+			<span>&times;</span>
+			<div class="headingmodel">
+			 <h3>Login</h3>
+			 <p>email or phone number</p>
+		    </div>
+			<form action="">
+				<label for=""> Mobile Number
+					
+				</label>
+				<input type="text">
+			
+			  <button>Login</button>
+			  <p>Dont have an account? <a href="">Create an account</a></p>
+		    </form>
+			
+		  </div>
+			
+		</div>
+		<div class="back1">
+			 <p>Doctor Consultant</p>
+		    </div>
+		
+		<div class="consult">
+			<div class="consultleft">
+				<img src="consult.jpg">
+			</div>
+			<div class="consultright">
+				<img src="consult1.jpg">
+			</div>
+		</div>
+		<div class="view">
+			<div class="viewleft">
+			 <h4> Top Specialities</h4>
+		    </div>
+		    <div class="viewright">
+		    	<h4>view all</h4>
+		    </div>
+		</div>
+		
+		
+		    <div class="top1">
+		  	    <div class="top11">
+				 <img src="general.jpg" height="100px">General physician
+			    </div>
+			    <div class="top11">
+				 <img src="a2.jpg" height="100px">Sexology
+				 
+			    </div>
+			    <div class="top11">
+				  <img src="a3.jpg" height="100px">Paediatrician
+			    </div>
+			    <div class="top11">
+				 <img src="a4.jpg" height="100px">Dentist
+			    </div>
+		    </div>
+
+		    <div class="top2">
+			    <div class="top21">
+				 <img src="image/a5.jpg">ENT
+			    </div>
+			    <div class="top21">
+				 <img src="image/a6.jpg">Dermatology
+			    </div>
+			    <div class="top21">
+				  <img src="image/gyano.jpg">Gynecology
+			    </div>
+			    <div class="top21">
+				 <img src="image/homopethic.jpg">homeopathy
+			    </div>
+		    </div>
+		 
+		</div>
+		<div>
+			<h3>Most Common Symptoms</h3>
+		</div>
+		<div class="symptoms">
+			<div class="symptoms1">
+				<img src="image/cold.jpg" height="100px">Cold, Cough & Fiver
+			</div>
+			<div class="symptoms1">
+				<img src="image/Vomiting.jpg" height="100px">Vomiting
+			</div><div class="symptoms1">
+				<img src="image/headache.jpg" height="100px">Headache
+			</div><div class="symptoms1">
+				<img src="image/constipation.jpg" height="100px">Constipation
+			</div>
+		</div>
+
+		<div class="symptom">
+			<div class="symptom1">
+				<img src="image/acne.jpg" height="100px">Acne & Pimple
+			</div>
+			<div class="symptom1">
+				<img src="image/women.jpg" height="100px">Women Problem
+			</div><div class="symptom1">
+				<img src="image/stress.jpg" height="100px">Stress  & Anxiety
+			</div><div class="symptom1">
+				<img src="image/hair.jpg" height="100px">Hairfall
+			</div>
+		</div>
+	</body>
+	<script>
+		let loginBtn=document.querySelector("#login")
+		let closeBtn=document.querySelector(".loginmodel span")
+		let loginmodelElement=document.querySelector(".loginmodel")
+
+		loginBtn.addEventListener("click",()=>{
+			loginmodelElement.classList.add('showmodel')
+		})
+		closeBtn.addEventListener("click",()=>{
+			loginmodelElement.classList.remove('showmodel')
+		})
+	</script>
+	</html>
